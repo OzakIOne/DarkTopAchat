@@ -3,6 +3,10 @@
     color: #bdbdbd;
 }
 
+.avatar--border {
+    border: 2px solid #202020;
+}
+
 .header-main__searchinput, .header-main__searchinput::placeholder {
     color: #bdbdbd;
 }
@@ -59,16 +63,20 @@
     background-color: #202020;
 }
 
-.homepage__links ul a, h3, .gamer-card .gamer-card__pseudo, .publication-card__header-pseudo, .product .product__label, .publication-card__text, .homepage__publish-text, .homepage__publish-more-text, .gamer-card .gamer-card__pseudo, .publication-header__time-link, .gamer-preview__pseudo, .gamer-preview__level, .header-main__griditem--configo a, .header-main__griditem--notifications a {
+.homepage__links ul a, h3, .publication-card__header-pseudo, .product .product__label, .publication-card__text, .homepage__publish-text, .homepage__publish-more-text, .publication-header__time-link, .header-main__griditem--configo a, .header-main__griditem--notifications a, .helper__navigation-link.active, .helper__navigation-link:hover {
     color: #bdbdbd;
 }
 
-.white-container, .publication-full__comments, .publication-full-page {
+.white-container, .publication-full__comments, .publication-full-page, .publication-full {
     background-color: #303030;
 }
 
 .gamer-card {
-    background-color: #303030;
+    background-color: #303030 !important;
+}
+
+.gamer-card .gamer-card__pseudo, .gamer-preview__pseudo, .gamer-preview__level {
+    color: #bdbdbd !important;
 }
 
 .publication-card__tag, .homepage__filters .homepage__filters-links:after {
@@ -119,7 +127,7 @@ a.product.publication-card__product, .publication-full__input {
     background-color: #202020;
 }
 
-.infos-message {
+.infos-message, .gamer-dashboard .gamer-dashboard__profile, .gamer-dashboard .gamer-dashboard__content {
     background-color: #303030;
     color: #bdbdbd;
 }
@@ -153,5 +161,167 @@ a.product.publication-card__product, .publication-full__input {
 
 .helper__infos--list, .helper__textarea-new, .helper__textarea-new::placeholder {
     background-color: #202020;
+    color: #bdbdbd;
+}
+
+.gamer-dashboard .gamer-dashboard__gamer--social ul li span {
+    color: #bdbdbd;
+}
+
+.publication-card__more-products {
+    background-color: #202020;
+    color: #bdbdbd;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.configomatic__section {
+    background-color: #303030;
+}
+
+.configomatic__content--left .configomatic__combos .configomatic__combo {
+    background-color: #202020;
+    border: none;
+    border-radius: 0px;
+}
+
+.configomatic__preview .configomatic__preview--panel, .configomatic__section {
+    color: #bdbdbd;
+    background-color: #303030;
+}
+
+.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB0 .CB0, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB0 .KEY, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--KEY .CB0, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--KEY .KEY, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB5 .CB5, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB5 .MOU, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--MOU .CB5, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--MOU .MOU, .configomatic__content--left .configomatic__combos .configomatic__combo-promo .configomatic__promo, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CBB .CBB, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CBB .KMO, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--KMO .CBB, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--KMO .KMO, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB1 .CB1, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB1 .CB2, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB1 .CB3, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB2 .CB1, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB2 .CB2, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB2 .CB3, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB3 .CB1, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB3 .CB2, .configomatic__content--left .configomatic__combo--wrapper.configomatic__combo-content--CB3 .CB3 {
+    border: 0px;
+    border-radius: 0px;
+}
+
+.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle {
+    color: #2979FF;
+}
+
+.button--blue, .button--blue:visited, .button--blue:hover, .button--blue:visited:hover {
+    background-color: #2979FF;
+    color: #bdbdbd;
+}
+
+.configomatic__promo {
+    display: none;
+}
+
+.configomatic__header .configomatic__header--content .logo:after {
+    background: none;
+}
+
+.configomatic__header .configomatic__header--content .logo {
+    background-color: #303030;
+}
+
+.configomatic__product-list, .configomatic__product-list .configomatic__product-list--search .configomatic__search-filter {
+    background-color: #202020;
+    color: #bdbdbd;
+}
+
+.configomatic__table .configomatic__table--row {
+    grid-column-gap: 0px;
+}
+
+.configomatic__table .configomatic__table--row.isEven>.configomatic__table--item {
+    background-color: #303030;
+    color: #bdbdbd;
+}
+
+.configomatic__item--anicos .configomatic__item--anico.OPS, .configomatic__product-list .configomatic__best-seller .configomatic__best-seller--header .configomatic__best-seller--title, .configomatic__filters .vue-slider-component .vue-slider-process {
+    background-color: #2979FF;
+}
+
+.configomatic__product-list .configomatic__product-list--search .configomatic__search-filter {
+    border-bottom: 3px solid #2979FF;
+}
+
+.configomatic__content--left .configomatic__combos .configomatic__combo.hasProduct {
+    background-color: #202020;
+}
+
+.configomatic__table .configomatic__table--row.isCurrent:not(.configomatic__table--header) {
+    background-color: #2979FF;
+}
+
+.configomatic__table .configomatic__table--row:hover:not(.configomatic__table--header) {
+    background-color: #151515;
+}
+
+.configomatic__product-sheet {
+    background-color: #202020;
+    color: #bdbdbd;
+}
+
+.configomatic__product-sheet .configomatic__product-sheet--content .product-sheet__technical .caracLine {
+    background-color: #303030;
+    color: #bdbdbd;
+}
+
+.product-sheet__technical .caracDesc {
+    color: #bdbdbd;
+}
+
+.multiselect {
+    color: #bdbdbd;
+}
+
+.multiselect__option--highlight {
+    background-color: #303030;
+    color: #bdbdbd;
+}
+
+.multiselect__option--highlight:hover {
+    background-color: #202020;
+}
+
+.multiselect__content-wrapper {
+    background-color: #303030;
+    border: none;
+}
+
+.multiselect__tags {
+    border: none;
+    background-color: #303030;
+}
+
+.configomatic__filters .configomatic__filters--group .multiselect .multiselect__single {
+    background-color: #202020;
+}
+
+.multiselect__option--selected {
+    background: #202020;
+}
+
+.multiselect__tag {
+    background-color: #2979FF;
+}
+
+
+
+
+
+
+
+
+
+.textautocompleter__textarea, .textautocompleter__search-input, .textautocompleter__bloc .icon {
+    border: none;
+    background-color: #202020;
+    border-radius: none;
     color: #bdbdbd;
 }

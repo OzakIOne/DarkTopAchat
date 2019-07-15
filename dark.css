@@ -20,7 +20,7 @@
     color: #bdbdbd;
 }
 
-.notifications__see-all {
+.notifications__see-all, .gamer-preview__stats {
     background-color: #2979FF;
 }
 
@@ -44,7 +44,7 @@
     color: #bdbdbd;
 }
 
-.navigation-main__catalog-link a.current, .navigation-main__catalog-link a:hover, a {
+.navigation-main__catalog-link a.current, .navigation-main__catalog-link a:hover, a, .publication-header__share-by {
     color: #2979FF;
 }
 
@@ -55,15 +55,19 @@
 
 
 
-.page-wrapper {
+.page-wrapper, .publication-card__dropdown-content--open {
     background-color: #202020;
 }
 
-.homepage__links ul a, h3, .gamer-card .gamer-card__pseudo, .publication-card__header-pseudo, .product .product__label, .publication-card__text, .homepage__publish-text, .homepage__publish-more-text, .gamer-card .gamer-card__pseudo {
+.homepage__links ul a, h3, .gamer-card .gamer-card__pseudo, .publication-card__header-pseudo, .product .product__label, .publication-card__text, .homepage__publish-text, .homepage__publish-more-text, .gamer-card .gamer-card__pseudo, .publication-header__time-link, .gamer-preview__pseudo, .gamer-preview__level, .header-main__griditem--configo a, .header-main__griditem--notifications a {
     color: #bdbdbd;
 }
 
-.white-container, .gamer-card {
+.white-container, .publication-full__comments, .publication-full-page {
+    background-color: #303030;
+}
+
+.gamer-card {
     background-color: #303030;
 }
 
@@ -72,7 +76,7 @@
     color: #bdbdbd;
 }
 
-.publication-card__footer-comment--dark, .publication-card__footer-comment:hover {
+.publication-card__footer-comment--dark, .publication-card__footer-comment:hover, .publication-header__time-link:hover {
     color: #808080;
 }
 
@@ -88,7 +92,7 @@
     background-color: #74a8ff;
 }
 
-a.product.publication-card__product {
+a.product.publication-card__product, .publication-full__input {
     background-color: #202020;
     border: none;
 }
@@ -98,11 +102,14 @@ a.product.publication-card__product {
     border: none;
 }
 
-.publication-card__footer {
-    border-top: 1px solid #202020;
+.publication-card__footer, .publication-card__footer--reply, .publication-card__footer--full {
+    border: none;
 }
 
-
+.publication-full .publication-card--reply {
+    background-color: #202020;
+    padding: 20px;
+}
 
 
 
@@ -119,4 +126,32 @@ a.product.publication-card__product {
 
 .topForm__input, .topForm__select, .topForm__textarea {
     background-color: #303030;
+}
+
+.gamer-preview__details {
+    background-color: #202020;
+    border: 1px solid #202020;
+}
+
+.helper__close-btn, .helper__header-icon, .helper__header-text {
+    background-color: #202020;
+}
+
+.helper__navigation {
+    background-color: #303030;
+}
+
+.helper__header-text, .helper__navigation-items li a {
+    color: #bdbdbd;
+}
+
+.helper__content {
+    padding: 20px;
+    margin: 0;
+    background-color: #252525;
+}
+
+.helper__infos--list, .helper__textarea-new, .helper__textarea-new::placeholder {
+    background-color: #202020;
+    color: #bdbdbd;
 }

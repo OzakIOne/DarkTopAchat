@@ -1,0 +1,122 @@
+.header-main {
+    background-color: #202020;
+    color: #bdbdbd;
+}
+
+.header-main__searchinput, .header-main__searchinput::placeholder {
+    color: #bdbdbd;
+}
+
+.notifications__list {
+    background-color: #303030;
+    border-radius: 0px;
+}
+
+.notification__item:hover {
+    background-color: #404040;
+}
+
+.notifications__list span {
+    color: #bdbdbd;
+}
+
+.notifications__see-all {
+    background-color: #2979FF;
+}
+
+.notification__item:not(:last-child):after {
+    content: none;
+}
+
+.notifications-displayed:after {
+    border-bottom: 6px solid #303030;
+}
+
+
+
+
+
+.navigation-main {
+    background-color: #303030;
+}
+
+.navigation-main li a {
+    color: #bdbdbd;
+}
+
+.navigation-main__catalog-link a.current, .navigation-main__catalog-link a:hover, a {
+    color: #2979FF;
+}
+
+.navigation-main__split-container {
+    background-color: #303030;
+}
+
+
+
+
+.page-wrapper {
+    background-color: #202020;
+}
+
+.homepage__links ul a, h3, .gamer-card .gamer-card__pseudo, .publication-card__header-pseudo, .product .product__label, .publication-card__text, .homepage__publish-text, .homepage__publish-more-text, .gamer-card .gamer-card__pseudo {
+    color: #bdbdbd;
+}
+
+.white-container, .gamer-card {
+    background-color: #303030;
+}
+
+.publication-card__tag, .homepage__filters .homepage__filters-links:after {
+    background-color: #2979FF;
+    color: #bdbdbd;
+}
+
+.publication-card__footer-comment--dark, .publication-card__footer-comment:hover {
+    color: #808080;
+}
+
+.publication-card__tag .icon {
+    background-color: #4187ff;
+}
+
+.publication-card__tag:hover {
+    background-color: #619cff;
+}
+
+.publication-card__tag:hover .icon {
+    background-color: #74a8ff;
+}
+
+a.product.publication-card__product {
+    background-color: #202020;
+    border: none;
+}
+
+.publication-card__medias {
+    background-color: #303030;
+    border: none;
+}
+
+.publication-card__footer {
+    border-top: 1px solid #202020;
+}
+
+
+
+
+
+
+
+.report[data-v-a4b1b3ae] {
+    background-color: #202020;
+}
+
+.infos-message {
+    background-color: #303030;
+    color: #bdbdbd;
+}
+
+.topForm__input, .topForm__select, .topForm__textarea {
+    background-color: #303030;
+}

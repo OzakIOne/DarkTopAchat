@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           DarkTopAchat
 @namespace      ozaki
-@version        1.0.4
+@version        1.0.5
 @description    Dark Theme for topachat's configomatic
 @author         ozaki
 @license        MIT
@@ -41,7 +41,7 @@
     border-bottom: 6px solid #303030;
 }
 
-.navigation-main, .product-list__best-sellers .product-list__best-sellers--wrapper, .products .products__item, .product-sheet__navigation, .product-sheet__infos-bloc .product-sheet__infos-bloc--slider .product-sheet__infos-bloc--slider-photos, .product__card, .navigation-main__split-container, .white-container, .publication-full__comments, .publication-full-page, .publication-full, .helper__navigation, .configomatic__section, .configomatic__header .configomatic__header--content .logo, .login-module, .vfl_list .products .vfl__item[data-v-82fe6fcc], .gooddeals .gooddeals__ops .gooddeals__ops--offer, .gooddeals .gooddeals__ops .gooddeals__ops--item-full, .gooddeals .gooddeals__list, .gooddeals .gooddeals__odr--section {
+.navigation-main, .product-list__best-sellers .product-list__best-sellers--wrapper, .products .products__item, .product-sheet__navigation, .product-sheet__infos-bloc .product-sheet__infos-bloc--slider .product-sheet__infos-bloc--slider-photos, .product__card, .navigation-main__split-container, .publication-full__comments, .publication-full-page, .publication-full, .helper__navigation, .configomatic__section, .configomatic__header .configomatic__header--content .logo, .login-module, .vfl_list .products .vfl__item[data-v-82fe6fcc], .gooddeals .gooddeals__ops .gooddeals__ops--offer, .gooddeals .gooddeals__ops .gooddeals__ops--item-full, .gooddeals .gooddeals__list, .gooddeals .gooddeals__odr--section {
     background-color: #303030;
 }
 
@@ -101,7 +101,7 @@ a.product.publication-card__product, .publication-full__input, .helper__conversa
     padding: 20px;
 }
 
-.topForm__input, .topForm__select, .topForm__textarea, .modal-header__close, .modal-header .modal-header__title, .modal-header .modal-header__icon:before, .infos-message, .gamer-dashboard .gamer-dashboard__profile, .gamer-dashboard .gamer-dashboard__content, .products .products__header .products__notices, .products .products__header .products__sort, .product-filters__filter, .page .page__breadcrumb a, .button--green-outline, .helper__infos, .configomatic__product-sheet .configomatic__product-sheet--content .product-sheet__technical .caracLine, .multiselect__option--highlight, .configomatic__preview .configomatic__preview--panel, .configomatic__section, .configomatic__table .configomatic__table--row.isEven>.configomatic__table--item, .page .page__content, .gooddeals .gooddeals__header, .gooddeals .gooddeals__promo--item {
+.topForm__input, .topForm__select, .topForm__textarea, .modal-header__close, .modal-header .modal-header__title, .modal-header .modal-header__icon:before, .infos-message, .gamer-dashboard .gamer-dashboard__profile, .gamer-dashboard .gamer-dashboard__content, .products .products__header .products__notices, .products .products__header .products__sort, .product-filters__filter, .page .page__breadcrumb a, .button--green-outline, .helper__infos, .configomatic__product-sheet .configomatic__product-sheet--content .product-sheet__technical .caracLine, .multiselect__option--highlight, .configomatic__preview .configomatic__preview--panel, .configomatic__section, .configomatic__table .configomatic__table--row.isEven>.configomatic__table--item, .page .page__content, .gooddeals .gooddeals__header, .gooddeals .gooddeals__promo--item, .white-container {
     background-color: #303030;
     color: #bdbdbd;
 }

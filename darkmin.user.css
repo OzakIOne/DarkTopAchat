@@ -45,11 +45,11 @@
     background-color: #303030;
 }
 
-.navigation-main__catalog-link a.current, .navigation-main__catalog-link a:hover, a, .publication-header__share-by, .category-menu-opened ul li a:hover, .category-menu ul li a:hover, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove {
+.navigation-main__catalog-link a.current, .navigation-main__catalog-link a:hover, a, .publication-header__share-by, .category-menu-opened ul li a:hover, .category-menu ul li a:hover, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove, .brands__list .brands__list--link:hover, .category__products .category__products--link:hover {
     color: #2979FF;
 }
 
-.homepage__links ul a, h3, .publication-card__header-pseudo, .product .product__label, .publication-card__text, .homepage__publish-text, .homepage__publish-more-text, .publication-header__time-link, .header-main__griditem--configo a, .header-main__griditem--notifications a, .helper__navigation-link.active, .helper__navigation-link:hover, .navigation-main li a, .header-main__searchinput, .header-main__searchinput::placeholder, .notifications__list span, .helper__header-text, .helper__navigation-items li a, .gamer-dashboard .gamer-dashboard__gamer--social ul li span, .category-container .category-container__category-label, .category-container .range-container__range-label, .range-container .category-container__category-label, .range-container .range-container__range-label, .category-menu-opened ul li, .category-menu-opened ul li a, .category-menu ul li a, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller .product-list__best-sellers--price, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller img, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller strong, .products .products__item .products__item--label, .products .products__item .products__item--sublabel, .product__vfl .count-down span, .product-list__header .product-list__header--content > h1, .product-sheet__infos-bloc .product-sheet__infos--title, .product-sheet__navigation--item, .product__card .product__card--info .product__card--label, span.product__card--sublabel, .multiselect, .helper__question-author, .helper__question-text, .helper__chat-bubble-container--me .helper__chat-time, .helper__chat-bubble-container--other .helper__chat-time, .helper__question-time, .product-sheet__technical .caracDesc, .swal-text, .swal-title:not(:last-child) {
+.homepage__links ul a, h3, .publication-card__header-pseudo, .product .product__label, .publication-card__text, .homepage__publish-text, .homepage__publish-more-text, .publication-header__time-link, .header-main__griditem--configo a, .header-main__griditem--notifications a, .helper__navigation-link.active, .helper__navigation-link:hover, .navigation-main li a, .header-main__searchinput, .header-main__searchinput::placeholder, .notifications__list span, .helper__header-text, .helper__navigation-items li a, .gamer-dashboard .gamer-dashboard__gamer--social ul li span, .category-container .category-container__category-label, .category-container .range-container__range-label, .range-container .category-container__category-label, .range-container .range-container__range-label, .category-menu-opened ul li, .category-menu-opened ul li a, .category-menu ul li a, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller .product-list__best-sellers--price, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller img, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller strong, .products .products__item .products__item--label, .products .products__item .products__item--sublabel, .product__vfl .count-down span, .product-list__header .product-list__header--content > h1, .product-sheet__infos-bloc .product-sheet__infos--title, .product-sheet__navigation--item, .product__card .product__card--info .product__card--label, span.product__card--sublabel, .multiselect, .helper__question-author, .helper__question-text, .helper__chat-bubble-container--me .helper__chat-time, .helper__chat-bubble-container--other .helper__chat-time, .helper__question-time, .product-sheet__technical .caracDesc, .swal-text, .swal-title:not(:last-child), .brands__list .brands__list--link, .category__products .category__products--link {
     color: #bdbdbd;
 }
 
@@ -214,7 +214,18 @@ a.product.publication-card__product, .publication-full__input, .helper__conversa
     color: #cd5c5c !important;
 }
 
-.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:before, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:before {
+.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:before, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:before, .category__products .product {
     border: 0px;
+}
+
+.transport[data-v-0b78ea34], .page-paiement-mop {
+    color: #bdbdbd;
+    background-color: #202020;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.livraison-notok[data-v-0b78ea34], .livraison-ok[data-v-0b78ea34] {
+    color: #202020;
 }
 }

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           DarkTopAchat
 @namespace      ozaki
-@version        1.0.0
+@version        1.0.1
 @description    Dark Theme for topachat's configomatic
 @author         ozaki
 @license        MIT
@@ -45,15 +45,15 @@
     background-color: #303030;
 }
 
-.navigation-main__catalog-link a.current, .navigation-main__catalog-link a:hover, a, .publication-header__share-by, .category-menu-opened ul li a:hover, .category-menu ul li a:hover, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle {
+.navigation-main__catalog-link a.current, .navigation-main__catalog-link a:hover, a, .publication-header__share-by, .category-menu-opened ul li a:hover, .category-menu ul li a:hover, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--toggle, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove {
     color: #2979FF;
 }
 
-.homepage__links ul a, h3, .publication-card__header-pseudo, .product .product__label, .publication-card__text, .homepage__publish-text, .homepage__publish-more-text, .publication-header__time-link, .header-main__griditem--configo a, .header-main__griditem--notifications a, .helper__navigation-link.active, .helper__navigation-link:hover, .navigation-main li a, .header-main__searchinput, .header-main__searchinput::placeholder, .notifications__list span, .helper__header-text, .helper__navigation-items li a, .gamer-dashboard .gamer-dashboard__gamer--social ul li span, .category-container .category-container__category-label, .category-container .range-container__range-label, .range-container .category-container__category-label, .range-container .range-container__range-label, .category-menu-opened ul li, .category-menu-opened ul li a, .category-menu ul li a, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller .product-list__best-sellers--price, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller img, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller strong, .products .products__item .products__item--label, .products .products__item .products__item--sublabel, .product__vfl .count-down span, .product-list__header .product-list__header--content > h1, .product-sheet__infos-bloc .product-sheet__infos--title, .product-sheet__navigation--item, .product__card .product__card--info .product__card--label, span.product__card--sublabel, .multiselect, .helper__question-author, .helper__question-text, .helper__chat-bubble-container--me .helper__chat-time, .helper__chat-bubble-container--other .helper__chat-time, .helper__question-time, .product-sheet__technical .caracDesc {
+.homepage__links ul a, h3, .publication-card__header-pseudo, .product .product__label, .publication-card__text, .homepage__publish-text, .homepage__publish-more-text, .publication-header__time-link, .header-main__griditem--configo a, .header-main__griditem--notifications a, .helper__navigation-link.active, .helper__navigation-link:hover, .navigation-main li a, .header-main__searchinput, .header-main__searchinput::placeholder, .notifications__list span, .helper__header-text, .helper__navigation-items li a, .gamer-dashboard .gamer-dashboard__gamer--social ul li span, .category-container .category-container__category-label, .category-container .range-container__range-label, .range-container .category-container__category-label, .range-container .range-container__range-label, .category-menu-opened ul li, .category-menu-opened ul li a, .category-menu ul li a, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller .product-list__best-sellers--price, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller img, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller strong, .products .products__item .products__item--label, .products .products__item .products__item--sublabel, .product__vfl .count-down span, .product-list__header .product-list__header--content > h1, .product-sheet__infos-bloc .product-sheet__infos--title, .product-sheet__navigation--item, .product__card .product__card--info .product__card--label, span.product__card--sublabel, .multiselect, .helper__question-author, .helper__question-text, .helper__chat-bubble-container--me .helper__chat-time, .helper__chat-bubble-container--other .helper__chat-time, .helper__question-time, .product-sheet__technical .caracDesc, .swal-text, .swal-title:not(:last-child) {
     color: #bdbdbd;
 }
 
-.gamer-card {
+.gamer-card, .configomatic__results.configomatic__results--assembly .configomatic__assembly--option:hover {
     background-color: #303030 !important;
 }
 
@@ -63,7 +63,7 @@
 
 .publication-card__tag, .homepage__filters .homepage__filters-links:after, .button--blue, .button--blue:visited, .button--blue:hover, .button--blue:visited:hover {
     background-color: #2979FF;
-    color: #bdbdbd;
+    color: #cccccc;
 }
 
 .publication-card__footer-comment--dark, .publication-card__footer-comment:hover, .publication-header__time-link:hover {
@@ -101,7 +101,7 @@ a.product.publication-card__product, .publication-full__input, .helper__conversa
     padding: 20px;
 }
 
-.topForm__input, .topForm__select, .topForm__textarea, .modal-header__close, .modal-header .modal-header__title, .modal-header .modal-header__icon:before, .infos-message, .gamer-dashboard .gamer-dashboard__profile, .gamer-dashboard .gamer-dashboard__content, .products .products__header .products__notices, .products .products__header .products__sort, .product-filters__filter, .page .page__breadcrumb a, .button--green-outline, .helper__infos, .configomatic__product-sheet .configomatic__product-sheet--content .product-sheet__technical .caracLine, .multiselect__option--highlight, .configomatic__preview .configomatic__preview--panel, .configomatic__section, .configomatic__table .configomatic__table--row.isEven>.configomatic__table--item {
+.topForm__input, .topForm__select, .topForm__textarea, .modal-header__close, .modal-header .modal-header__title, .modal-header .modal-header__icon:before, .infos-message, .gamer-dashboard .gamer-dashboard__profile, .gamer-dashboard .gamer-dashboard__content, .products .products__header .products__notices, .products .products__header .products__sort, .product-filters__filter, .page .page__breadcrumb a, .button--green-outline, .helper__infos, .configomatic__product-sheet .configomatic__product-sheet--content .product-sheet__technical .caracLine, .multiselect__option--highlight, .configomatic__preview .configomatic__preview--panel, .configomatic__section, .configomatic__table .configomatic__table--row.isEven>.configomatic__table--item, .page .page__content {
     background-color: #303030;
     color: #bdbdbd;
 }
@@ -111,7 +111,7 @@ a.product.publication-card__product, .publication-full__input, .helper__conversa
     border: 1px solid #202020;
 }
 
-.helper__close-btn, .helper__header-icon, .helper__header-text, .configomatic__content--left .configomatic__combos .configomatic__combo.hasProduct, .product-sheet__technical .caracLine, .page-wrapper, .publication-card__dropdown-content--open, .report[data-v-a4b1b3ae], .configomatic__filters .configomatic__filters--group .multiselect .multiselect__single, .multiselect__option--highlight:hover {
+.helper__close-btn, .helper__header-icon, .helper__header-text, .configomatic__content--left .configomatic__combos .configomatic__combo.hasProduct, .product-sheet__technical .caracLine, .page-wrapper, .publication-card__dropdown-content--open, .report[data-v-a4b1b3ae], .configomatic__filters .configomatic__filters--group .multiselect .multiselect__single, .multiselect__option--highlight:hover, .swal-modal, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--action, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:hover, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:hover {
     background-color: #202020;
 }
 
@@ -192,8 +192,8 @@ a.product.publication-card__product, .publication-full__input, .helper__conversa
     border-top: 3px solid #2979FF;
 }
 
-.product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller .product-list__best-sellers--price {
-    color: red;
+.product-list__best-sellers {
+    color: red !important;
 }
 
 .product-sheet__technical .caracLine:not(:last-child) {
@@ -208,5 +208,13 @@ a.product.publication-card__product, .publication-full__input, .helper__conversa
 
 .page .page__breadcrumb--product, .configomatic__promo {
     display: none;
+}
+
+.product-list__best-sellers--products .product-list__best-sellers--bestseller .product-list__best-sellers--price, .configomatic__table--item.configomatic__item--prix {
+    color: #cd5c5c !important;
+}
+
+.configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:before, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:before {
+    border: 0px;
 }
 }

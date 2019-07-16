@@ -132,8 +132,13 @@ a.product.publication-card__product, .publication-full__input {
     color: #bdbdbd;
 }
 
-.topForm__input, .topForm__select, .topForm__textarea {
+.topForm__input, .topForm__select, .topForm__textarea, .modal-header__close, .modal-header .modal-header__title, .modal-header .modal-header__icon:before {
     background-color: #303030;
+    color: #bdbdbd;
+}
+
+.modal-header__close:after {
+    content: none;
 }
 
 .gamer-preview__details {
@@ -276,7 +281,7 @@ a.product.publication-card__product, .publication-full__input {
     color: #bdbdbd;
 }
 
-.multiselect {
+.multiselect, .helper__question-author, .helper__question-text, .helper__chat-bubble-container--me .helper__chat-time, .helper__chat-bubble-container--other .helper__chat-time, .helper__question-time {
     color: #bdbdbd;
 }
 
@@ -311,7 +316,10 @@ a.product.publication-card__product, .publication-full__input {
     background-color: #2979FF;
 }
 
-
+.multiselect__option--highlight:after {
+    content: attr(data-select);
+    background: #2979FF !important;
+}
 
 
 
@@ -324,4 +332,102 @@ a.product.publication-card__product, .publication-full__input {
     background-color: #202020;
     border-radius: none;
     color: #bdbdbd;
+}
+
+
+
+
+.helper__question--avatar {
+    background-color: #404040;
+}
+
+.helper__conversation-textarea, .helper__question-textarea {
+    background-color: #404040;
+    color: #bdbdbd;
+}
+
+.helper__conversation-content {
+    background-color: #404040; 
+}
+
+.helper__chat-bubble-container--me .helper__chat-bubble {
+    color: #eee;
+    background-color: #252525;
+}
+
+.helper__conversation-question, .helper__conversation-dropdown-content {
+    background-color: #202020;
+    border: none;
+}
+
+.button--green-outline, .helper__infos {
+    background-color: #303030;
+    color: #bdbdbd;
+}
+
+.publication-full .all-comments__list .publication-card {
+    padding: 20px;
+}
+
+.all-comments--replies {
+    border-left: 3px solid #2979FF;
+}
+
+.category-menu, .category-menu-opened {
+    border-top: 3px solid #2979FF;
+}
+
+.category-container .category-container__category-label, .category-container .range-container__range-label, .range-container .category-container__category-label, .range-container .range-container__range-label, .category-menu-opened ul li, .category-menu-opened ul li a, .category-menu ul li a, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller .product-list__best-sellers--price, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller img, .product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller strong {
+    color: #bdbdbd;
+}
+
+.category-menu-opened ul li a:hover, .category-menu ul li a:hover {
+    color: #2979FF;
+}
+
+.product-list__best-sellers .product-list__best-sellers--wrapper {
+    background-color: #303030;
+}
+
+.product-list__best-sellers .product-list__best-sellers--products .product-list__best-sellers--bestseller .product-list__best-sellers--price {
+    color: red;
+}
+
+.products .products__header .products__notices, .products .products__header .products__sort, .product-filters__filter, .page .page__breadcrumb a {
+    background-color: #303030;
+    color: #bdbdbd;
+}
+
+.products .products__item {
+    background-color: #303030;
+}
+
+.products .products__item .products__item--label, .products .products__item .products__item--sublabel, .product__vfl .count-down span, .product-list__header .product-list__header--content > h1, .product-sheet__infos-bloc .product-sheet__infos--title, .product-sheet__navigation--item, .product__card .product__card--info .product__card--label, span.product__card--sublabel {
+    color: #bdbdbd;
+}
+
+.product-filters__content .vue-slider-component .vue-slider-dot .vue-slider-dot-handle:before, .product-filters__content .vue-slider-component .vue-slider-process, .product-filters__content .vue-slider-component .vue-slider-dot .vue-slider-dot-handle:after {
+    background-color: #2979FF;
+}
+
+.product-sheet__navigation, .product-sheet__infos-bloc .product-sheet__infos-bloc--slider .product-sheet__infos-bloc--slider-photos, .product__card {
+    background-color: #303030;
+}
+
+.product-sheet__technical .caracLine:not(:last-child) {
+    border-bottom: 1px solid #303030;
+    background-color: #202020;
+    padding: 20px;
+}
+
+.product-sheet__technical .caracLine {
+    background-color: #202020;
+}
+
+.product_sheet__header {
+    margin: 10px;
+}
+
+.page .page__breadcrumb--product {
+    display: none;
 }

@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           DarkTopAchat
 @namespace      ozaki
-@version        1.0.5
+@version        1.0.6
 @description    Dark Theme for topachat's configomatic
 @author         ozaki
 @license        MIT
@@ -84,16 +84,16 @@
 
 a.product.publication-card__product, .publication-full__input, .helper__conversation-question, .helper__conversation-dropdown-content {
     background-color: #202020;
-    border: none;
+    border: 0px;
 }
 
 .publication-card__medias, .multiselect__content-wrapper, .multiselect__tags {
     background-color: #303030;
-    border: none;
+    border: 0px;
 }
 
 .publication-card__footer, .publication-card__footer--reply, .publication-card__footer--full {
-    border: none;
+    border: 0px;
 }
 
 .publication-full .publication-card--reply {
@@ -101,9 +101,15 @@ a.product.publication-card__product, .publication-full__input, .helper__conversa
     padding: 20px;
 }
 
-.topForm__input, .topForm__select, .topForm__textarea, .modal-header__close, .modal-header .modal-header__title, .modal-header .modal-header__icon:before, .infos-message, .gamer-dashboard .gamer-dashboard__profile, .gamer-dashboard .gamer-dashboard__content, .products .products__header .products__notices, .products .products__header .products__sort, .product-filters__filter, .page .page__breadcrumb a, .button--green-outline, .helper__infos, .configomatic__product-sheet .configomatic__product-sheet--content .product-sheet__technical .caracLine, .multiselect__option--highlight, .configomatic__preview .configomatic__preview--panel, .configomatic__section, .configomatic__table .configomatic__table--row.isEven>.configomatic__table--item, .page .page__content, .gooddeals .gooddeals__header, .gooddeals .gooddeals__promo--item, .white-container {
+.modal-header__close, .modal-header .modal-header__title, .modal-header .modal-header__icon:before, .infos-message, .gamer-dashboard .gamer-dashboard__profile, .gamer-dashboard .gamer-dashboard__content, .products .products__header .products__notices, .products .products__header .products__sort, .product-filters__filter, .page .page__breadcrumb a, .button--green-outline, .helper__infos, .configomatic__product-sheet .configomatic__product-sheet--content .product-sheet__technical .caracLine, .multiselect__option--highlight, .configomatic__preview .configomatic__preview--panel, .configomatic__section, .configomatic__table .configomatic__table--row.isEven>.configomatic__table--item, .page .page__content, .gooddeals .gooddeals__header, .gooddeals .gooddeals__promo--item, .white-container {
     background-color: #303030;
     color: #bdbdbd;
+}
+
+.topForm__input, .topForm__select, .topForm__textarea {
+    background-color: #303030;
+    color: #bdbdbd;
+    border: 0px;
 }
 
 .gamer-preview__details {
@@ -111,7 +117,7 @@ a.product.publication-card__product, .publication-full__input, .helper__conversa
     border: 1px solid #202020;
 }
 
-.helper__close-btn, .helper__header-icon, .helper__header-text, .configomatic__content--left .configomatic__combos .configomatic__combo.hasProduct, .product-sheet__technical .caracLine, .page-wrapper, .publication-card__dropdown-content--open, .report[data-v-a4b1b3ae], .configomatic__filters .configomatic__filters--group .multiselect .multiselect__single, .multiselect__option--highlight:hover, .swal-modal, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--action, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:hover, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:hover, .suggest__results-link:hover {
+.helper__close-btn, .helper__header-icon, .helper__header-text, .configomatic__content--left .configomatic__combos .configomatic__combo.hasProduct, .product-sheet__technical .caracLine, .page-wrapper, .publication-card__dropdown-content--open, .report[data-v-a4b1b3ae], .configomatic__filters .configomatic__filters--group .multiselect .multiselect__single, .multiselect__option--highlight:hover, .swal-modal, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--action, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:hover, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:hover, .suggest__results-link:hover, .customer {
     background-color: #202020;
 }
 
@@ -121,15 +127,15 @@ a.product.publication-card__product, .publication-full__input, .helper__conversa
     background-color: #252525;
 }
 
-.publication-card__more-products {
+.publication-card__more-products, .tacForm input, .tacForm select, .tacForm textarea {
     background-color: #202020;
     color: #bdbdbd;
-    border: none;
+    border: 0px;
 }
 
 .configomatic__content--left .configomatic__combos .configomatic__combo {
     background-color: #202020;
-    border: none;
+    border: 0px;
     border-radius: 0px;
 }
 
@@ -164,7 +170,7 @@ a.product.publication-card__product, .publication-full__input, .helper__conversa
 }
 
 .textautocompleter__textarea, .textautocompleter__search-input, .textautocompleter__bloc .icon {
-    border: none;
+    border: 0px;
     background-color: #202020;
     border-radius: 0px;
     color: #bdbdbd;

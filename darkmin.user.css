@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           DarkTopAchat
 @namespace      ozaki
-@version        1.0.6
+@version        1.0.7
 @description    Dark Theme for topachat's configomatic
 @author         ozaki
 @license        MIT
@@ -41,7 +41,7 @@
     border-bottom: 6px solid #303030;
 }
 
-.navigation-main, .product-list__best-sellers .product-list__best-sellers--wrapper, .products .products__item, .product-sheet__navigation, .product-sheet__infos-bloc .product-sheet__infos-bloc--slider .product-sheet__infos-bloc--slider-photos, .product__card, .navigation-main__split-container, .publication-full__comments, .publication-full-page, .publication-full, .helper__navigation, .configomatic__section, .configomatic__header .configomatic__header--content .logo, .login-module, .vfl_list .products .vfl__item[data-v-82fe6fcc], .gooddeals .gooddeals__ops .gooddeals__ops--offer, .gooddeals .gooddeals__ops .gooddeals__ops--item-full, .gooddeals .gooddeals__list, .gooddeals .gooddeals__odr--section {
+.navigation-main, .product-list__best-sellers .product-list__best-sellers--wrapper, .products .products__item, .product-sheet__navigation, .product-sheet__infos-bloc .product-sheet__infos-bloc--slider .product-sheet__infos-bloc--slider-photos, .product__card, .navigation-main__split-container, .publication-full__comments, .publication-full-page, .publication-full, .helper__navigation, .configomatic__section, .configomatic__header .configomatic__header--content .logo, .login-module, .vfl_list .products .vfl__item[data-v-82fe6fcc], .gooddeals .gooddeals__ops .gooddeals__ops--offer, .gooddeals .gooddeals__ops .gooddeals__ops--item-full, .gooddeals .gooddeals__list, .gooddeals .gooddeals__odr--section, .publish__step-bubble, .publish__step-separator {
     background-color: #303030;
 }
 
@@ -82,7 +82,7 @@
     background-color: #74a8ff;
 }
 
-a.product.publication-card__product, .publication-full__input, .helper__conversation-question, .helper__conversation-dropdown-content {
+a.product.publication-card__product, .publication-full__input, .helper__conversation-question, .helper__conversation-dropdown-content, .publish__steps {
     background-color: #202020;
     border: 0px;
 }
@@ -106,7 +106,7 @@ a.product.publication-card__product, .publication-full__input, .helper__conversa
     color: #bdbdbd;
 }
 
-.topForm__input, .topForm__select, .topForm__textarea {
+.topForm__input, .topForm__select, .topForm__textarea, .publish__find-theme-input, .product, .likesshares__gamer {
     background-color: #303030;
     color: #bdbdbd;
     border: 0px;
@@ -117,7 +117,7 @@ a.product.publication-card__product, .publication-full__input, .helper__conversa
     border: 1px solid #202020;
 }
 
-.helper__close-btn, .helper__header-icon, .helper__header-text, .configomatic__content--left .configomatic__combos .configomatic__combo.hasProduct, .product-sheet__technical .caracLine, .page-wrapper, .publication-card__dropdown-content--open, .report[data-v-a4b1b3ae], .configomatic__filters .configomatic__filters--group .multiselect .multiselect__single, .multiselect__option--highlight:hover, .swal-modal, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--action, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:hover, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:hover, .suggest__results-link:hover, .customer {
+.helper__close-btn, .helper__header-icon, .helper__header-text, .configomatic__content--left .configomatic__combos .configomatic__combo.hasProduct, .product-sheet__technical .caracLine, .page-wrapper, .publication-card__dropdown-content--open, .report[data-v-a4b1b3ae], .configomatic__filters .configomatic__filters--group .multiselect .multiselect__single, .multiselect__option--highlight:hover, .swal-modal, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--action, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--add:hover, .configomatic__content--left .configomatic__combo--wrapper .configomatic__combo--remove:hover, .suggest__results-link:hover, .customer, .publish, .likesshares__container {
     background-color: #202020;
 }
 
